@@ -181,6 +181,14 @@ export default function HomePage() {
           </div>
         )}
 
+        {/* Login link for team */}
+        <p className="text-center text-sm text-gray-500 mt-4">
+          Are you a team member?{' '}
+          <a href="/login" className="text-blue-600 hover:underline font-medium">
+            Sign in
+          </a>
+        </p>
+
         {/* Footer credit - required by task */}
         <p className="text-center text-xs text-gray-400 mt-8">
           Built for{' '}
